@@ -35,7 +35,7 @@ void scale(int a, int b, int c) {
       int yr = (int)(Math.random()*8)-4;
       fill (a+((int)(Math.random()*14)), b+((int)(Math.random()*14)), c+((int)(Math.random()*14)));
       stroke(a-60, b-60, c-60);
-      circle (x+r, y+yr, 30);
+      ellipse (x+r, y+yr, 30,30);
       noStroke();
       triangle (x-15+r, y-3, 15+x+r, y-3, x+r, y-30);
     }
@@ -43,7 +43,7 @@ void scale(int a, int b, int c) {
       int yr = (int)(Math.random()*8)-4;
       fill (a+((int)(Math.random()*14)), b+((int)(Math.random()*14)), c+((int)(Math.random()*14)));
       stroke(a-60, b-60, c-60);
-      circle (x+r, y-15+yr, 30);
+      ellipse (x+r, y-15+yr, 30,30);
       noStroke();
       triangle (x-15+r, y-3-15, 15+x+r, y-3-15, x+r, y-30-15);
     }
